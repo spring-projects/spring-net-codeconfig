@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
   <!-- Documenting GetFolderPath-->
   <head>
@@ -40,7 +40,7 @@
         <tr>
           <td>folder</td>
           <td>
-            <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/cpref/html/frlrfSystemEnvironmentSpecialFolderClassTopic.asp">SpecialFolder</a>
+            <a href="https://msdn.microsoft.com/library/default.asp?url=/library/en-us/cpref/html/frlrfSystemEnvironmentSpecialFolderClassTopic.asp">SpecialFolder</a>
           </td>
           <td>An enumerated constant that identifies a system special folder.</td>
         </tr>
@@ -48,7 +48,7 @@
     </div>
     <h3>Return Value</h3> The path to the specified system special folder, if that folder physically exists on your computer; otherwise, the empty string (""). <h3>Exceptions</h3>
             The function will fail in any of the following circumstances:
-            <div style="margin-left: 40px;"><ul><li><i>folder</i> is not a member of <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/cpref/html/frlrfSystemEnvironmentSpecialFolderClassTopic.asp">SpecialFolder</a>.</li></ul></div><h3>Examples</h3><ul class="examples"><li><p> Copy "out.log" from the project base directory to the program files directory. </p><pre class="code">
+            <div style="margin-left: 40px;"><ul><li><i>folder</i> is not a member of <a href="https://msdn.microsoft.com/library/default.asp?url=/library/en-us/cpref/html/frlrfSystemEnvironmentSpecialFolderClassTopic.asp">SpecialFolder</a>.</li></ul></div><h3>Examples</h3><ul class="examples"><li><p> Copy "out.log" from the project base directory to the program files directory. </p><pre class="code">
 &lt;copy file="out.log" todir="${environment::get-folder-path('ProgramFiles')}" /&gt;
     </pre></li></ul><h3>Requirements</h3><div style="margin-left: 20px;"><b>Assembly:</b> NAnt.Core (0.85.2478.0)
             </div></body>

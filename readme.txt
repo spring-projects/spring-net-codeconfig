@@ -63,7 +63,7 @@ The is a solution file for different version of VS.NET
 
 8. Support
 
-The user forums at http://forum.springframework.net/ are available for you to submit questions, support requests, and interact with other Spring.NET users.
+The user forums at https://forum.springframework.net/ are available for you to submit questions, support requests, and interact with other Spring.NET users.
 
 Bug and issue tracking can be found at https://jira.springsource.org/browse/SPRNET/component/11081
 
@@ -80,4 +80,4 @@ InnovSys has kindly provided a license to generate the SDK documentation and sup
 
 10. Contributing to Spring.NET CodeConfig
 
-Github is for social coding: if you want to write code, we encourage contributions through pull requests from forks of this repository (see http://help.github.com/forking/). Before we accept a non-trivial patch or pull request we will need you to sign the contributor's agreement (see https://support.springsource.com/spring_committer_signup). Signing the contributor's agreement does not grant anyone commit rights to the main repository, but it does mean that we can accept your contributions, and you will get an author credit if we do. Active contributors might be asked to join the core team, and given the ability to merge pull requests.
+Github is for social coding: if you want to write code, we encourage contributions through pull requests from forks of this repository (see https://help.github.com/forking/). Before we accept a non-trivial patch or pull request we will need you to sign the contributor's agreement (see https://support.springsource.com/spring_committer_signup). Signing the contributor's agreement does not grant anyone commit rights to the main repository, but it does mean that we can accept your contributions, and you will get an author credit if we do. Active contributors might be asked to join the core team, and given the ability to merge pull requests.

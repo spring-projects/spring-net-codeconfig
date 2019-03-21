@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
   <!-- Documenting ToString-->
   <head>
@@ -24,7 +24,7 @@
       </tr>
     </table>
     <h1>operating-system::to-string</h1>
-    <p> Converts the value of the specified operating system to its equivalent <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/cpref/html/frlrfSystemStringClassTopic.asp">String</a> representation. </p>
+    <p> Converts the value of the specified operating system to its equivalent <a href="https://msdn.microsoft.com/library/default.asp?url=/library/en-us/cpref/html/frlrfSystemStringClassTopic.asp">String</a> representation. </p>
     <h3>Usage</h3>
     <code>string operating-system::to-string(<span class="parameter">operatingSystem</span>)
             </code>
@@ -40,13 +40,13 @@
         <tr>
           <td>operatingSystem</td>
           <td>
-            <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/cpref/html/frlrfSystemOperatingSystemClassTopic.asp">OperatingSystem</a>
+            <a href="https://msdn.microsoft.com/library/default.asp?url=/library/en-us/cpref/html/frlrfSystemOperatingSystemClassTopic.asp">OperatingSystem</a>
           </td>
           <td>The operating system.</td>
         </tr>
       </table>
     </div>
-    <h3>Return Value</h3> The <a href="http://msdn.microsoft.com/library/default.asp?url=/library/en-us/cpref/html/frlrfSystemStringClassTopic.asp">String</a> representation of <i>operatingSystem</i>. <h3>Examples</h3><ul class="examples"><li><p> Output string representation of the current operating system. </p><pre class="code">
+    <h3>Return Value</h3> The <a href="https://msdn.microsoft.com/library/default.asp?url=/library/en-us/cpref/html/frlrfSystemStringClassTopic.asp">String</a> representation of <i>operatingSystem</i>. <h3>Examples</h3><ul class="examples"><li><p> Output string representation of the current operating system. </p><pre class="code">
 &lt;echo message="OS=${operating-system::to-string(environment::get-operating-system())}" /&gt;
     </pre><p>If the operating system is Windows 2000, the output is:</p><pre class="code">Microsoft Windows NT 5.0.2195.0
   </pre></li></ul><h3>Requirements</h3><div style="margin-left: 20px;"><b>Assembly:</b> NAnt.Core (0.85.2478.0)

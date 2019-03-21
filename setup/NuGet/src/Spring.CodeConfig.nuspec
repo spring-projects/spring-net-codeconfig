@@ -6,7 +6,7 @@
 		<title>Spring.CodeConfig</title>
 		<projectUrl>http://www.springframework.net/</projectUrl>
 		<licenseUrl>http://www.springframework.net/license.html</licenseUrl>
-		<iconUrl>http://springframework.net/images/SpringSource_Leaves32x32.png</iconUrl>
+		<iconUrl>https://springframework.net/images/SpringSource_Leaves32x32.png</iconUrl>
 		<version>0.0.0</version> <!-- this value is a placeholder replaced by build script -->
 		<authors>SpringSource</authors>
 		<description>Provides the ability to configure a Spring container using standard .NET code instead of or in addition to XML</description>

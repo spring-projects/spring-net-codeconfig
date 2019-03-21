@@ -9,7 +9,7 @@
 
 /*!
  * jQuery JavaScript Library v1.4.1
- * http://jquery.com/
+ * https://jquery.com/
  *
  * Distributed in whole under the terms of the MIT
  *
@@ -35,7 +35,7 @@
  * WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  *
  * Includes Sizzle.js
- * http://sizzlejs.com/
+ * https://sizzlejs.com/
  * Copyright 2010, The Dojo Foundation
  * Released under the MIT, BSD, and GPL Licenses.
  *
@@ -710,7 +710,7 @@ jQuery.extend({
 		}
 		
 		// Make sure the incoming data is actual JSON
-		// Logic borrowed from http://json.org/json2.js
+		// Logic borrowed from https://json.org/json2.js
 		if ( /^[\],:{}\s]*$/.test(data.replace(/\\(?:["\\\/bfnrt]|u[0-9a-fA-F]{4})/g, "@")
 			.replace(/"[^"\\\n\r]*"|true|false|null|-?\d+(?:\.\d*)?(?:[eE][+\-]?\d+)?/g, "]")
 			.replace(/(?:^|:|,)(?:\s*\[)+/g, "")) ) {
@@ -741,7 +741,7 @@ jQuery.extend({
 
 		if ( data && rnotwhite.test(data) ) {
 			// Inspired by code by Andrea Giammarchi
-			// http://webreflection.blogspot.com/2007/08/global-scope-evaluation-and-dom.html
+			// https://webreflection.blogspot.com/2007/08/global-scope-evaluation-and-dom.html
 			var head = document.getElementsByTagName("head")[0] || document.documentElement,
 				script = document.createElement("script");
 
@@ -1022,7 +1022,7 @@ jQuery.extend({
 	},
 
 	// Use of jQuery.browser is frowned upon.
-	// More details: http://docs.jquery.com/Utilities/jQuery.browser
+	// More details: https://docs.jquery.com/Utilities/jQuery.browser
 	uaMatch: function( ua ) {
 		ua = ua.toLowerCase();
 
@@ -1276,7 +1276,7 @@ function now() {
 	//	});
 
 	//	// Technique from Juriy Zaytsev
-	//	// http://thinkweb2.com/projects/prototype/detecting-event-support-without-browser-sniffing/
+	//	// https://thinkweb2.com/projects/prototype/detecting-event-support-without-browser-sniffing/
 	//	var eventSupported = function( eventName ) { 
 	//		var el = document.createElement("div"); 
 	//		eventName = "on" + eventName; 
@@ -1559,7 +1559,7 @@ jQuery.fn.extend({
 	},
 
 	// Based off of the plugin by Clint Helfers, with permission.
-	// http://blindsignals.com/index.php/2009/07/jquery-delay/
+	// http://blindsignals.com
 	delay: function( time, type ) {
 		///	<summary>
 		///		Set a timer to delay execution of subsequent items in the queue.
@@ -1963,7 +1963,7 @@ jQuery.extend({
 				}
 
 				// elem.tabIndex doesn't always return the correct value when it hasn't been explicitly set
-				// http://fluidproject.org/blog/2008/01/09/getting-setting-and-removing-tabindex-values-with-javascript/
+				// https://fluidproject.org/blog/2008/01/09/getting-setting-and-removing-tabindex-values-with-javascript/
 				if ( name === "tabIndex" ) {
 					var attributeNode = elem.getAttributeNode( "tabIndex" );
 
@@ -2554,7 +2554,7 @@ function returnTrue() {
 }
 
 // jQuery.Event is based on DOM3 Events as specified by the ECMAScript Language Binding
-// http://www.w3.org/TR/2003/WD-DOM-Level-3-Events-20030331/ecma-script-binding.html
+// https://www.w3.org/TR/2003/WD-DOM-Level-3-Events-20030331/ecma-script-binding.html
 jQuery.Event.prototype = {
 	preventDefault: function() {
 		this.isDefaultPrevented = returnTrue;
@@ -3462,7 +3462,7 @@ jQuery.fn[ "error" ] = function( fn ) {
 // Prevent memory leaks in IE
 // Window isn't included so as not to unbind existing unload events
 // More info:
-//  - http://isaacschlueter.com/2006/10/msie-memory-leaks/
+//  - https://izs.me/
 if ( window.attachEvent && !window.addEventListener ) {
 	window.attachEvent("onunload", function() {
 		for ( var id in jQuery.cache ) {
@@ -3479,7 +3479,7 @@ if ( window.attachEvent && !window.addEventListener ) {
  * Sizzle CSS Selector Engine - v1.0
  *  Copyright 2009, The Dojo Foundation
  *  Released under the MIT, BSD, and GPL Licenses.
- *  More information: http://sizzlejs.com/
+ *  More information: https://sizzlejs.com/
  */
 (function(){
 
